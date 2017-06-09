@@ -7,13 +7,13 @@ public class BreakSubstitute {
     public static void main(String[] args) {
        
         int x = 0; // variable used to exit break
-        int i = 1;
+        int count = 1;
         
-        for (i = 1; (i <= 10) && (x < 1); i++)
+        for (count = 1; (count <= 10) && (x < 1); count++)
         {
-            if (i == 5)
-                x++;  // equivalent of break statement
-            System.out.printf("%d ", i);
+            if (count == 5)
+                ++x;  // equivalent of break statement
+            System.out.printf("%d ", count);
         }
         System.out.println();
     } // end method main
