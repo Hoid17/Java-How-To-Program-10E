@@ -12,15 +12,17 @@ public class Multiples {
         int num1; // First number
         int num2; // Second number
         
-        System.out.print("Enter first number: ");
+        System.out.print("Enter a pair of numbers or x to quit: ");
+        while(input.hasNextInt())
+        {
         num1 = input.nextInt();
-        System.out.print("Enter second number: ");
         num2 = input.nextInt();
         
         if (isMultiple(num1, num2))
             System.out.printf("The second number is a multiple of the first number.%n");
         else
-            System.out.printf("The second number is not a multiple of the second number.%n");
+            System.out.printf("The second number is not a multiple of the first number.%n");
+        }
     } // end method main
     
     // Sees if a number is a multiple of another
