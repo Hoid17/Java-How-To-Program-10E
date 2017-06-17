@@ -3,6 +3,11 @@
 package pkg5_16;
 import java.util.Scanner;
 
+// See if one number is a multiple of another
+// @Author: Adam Janecka
+package pkg5_16;
+import java.util.Scanner;
+
 public class Multiples {
 
     public static void main(String[] args) {
@@ -12,16 +17,16 @@ public class Multiples {
         int num1; // First number
         int num2; // Second number
         
-        System.out.print("Enter a pair of numbers or x to quit: ");
-        while(input.hasNextInt())
+        System.out.print("Enter a pair of numbers or -1 to quit: ");
+        while(!input.hasNext ("-1")) // While the number is not -1
         {
         num1 = input.nextInt();
         num2 = input.nextInt();
         
         if (isMultiple(num1, num2))
-            System.out.printf("The second number is a multiple of the first number.%n");
+            System.out.printf("%d is a multiple of %d.%n", num2, num1);
         else
-            System.out.printf("The second number is not a multiple of the first number.%n");
+            System.out.printf("%d is not a multiple of %d.%n", num2, num1);
         }
     } // end method main
     
