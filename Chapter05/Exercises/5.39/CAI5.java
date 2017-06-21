@@ -46,9 +46,15 @@ public class CAI5 {
             {
 
                 if (type == 5)
+                {
                     mixture = 1 + random.nextInt(4); // Chooses a type at random
+                    answer = displayQuestion(difficulty, mixture);
+                }
                 
-                answer = displayQuestion(difficulty, mixture); // Correct answer to the problem
+                else
+                    answer = displayQuestion(difficulty,type);
+                
+                // Correct answer to the problem
                 userAnswer = input.nextInt();
                 inputs++; // 
             
@@ -167,4 +173,4 @@ public class CAI5 {
                 return num1 / num2;
         }
     } // end method displayQuestion
-} // end class CAI4
+} // end class CAI5
