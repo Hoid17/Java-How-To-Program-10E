@@ -53,7 +53,6 @@ public class CrapsArray {
             default: // did not win or lose, so remember point
                 gameStatus = Status.CONTINUE; // game is not over
                 myPoint = sumOfDice; // remember the point
-               // System.out.printf("Point is %d%n", myPoint);
                 break;
         }
         
@@ -75,16 +74,14 @@ public class CrapsArray {
         if (rollCount > 20) // For all games with 20 or more rolls
             rollCount = 21;
         
-        // display won or lost message
+        // iterate counter for win or loss
         if (gameStatus == Status.WON)
         {
-            //System.out.println("Player wins");
             winCount++;
             win[rollCount]++;
         }
         else
         {
-            //System.out.println("Player loses");
             loseCount++;
             lose[rollCount]++;
         }
@@ -133,10 +130,7 @@ public class CrapsArray {
         
         int sum = die1 + die2; // sum of die values
         
-        // display results of this roll
-       /* System.out.printf("Player rolled %d + %d = %d%n", 
-                die1, die2, sum);*/
-        
         return sum;
     } // end method rollDice    
 } // end class CrapsArray
+
