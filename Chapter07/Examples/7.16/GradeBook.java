@@ -1,6 +1,6 @@
 // Fig. 7.16: GradeBook.java
 // GradeBook class using a two-dimensional array to store grades
-package pkg7_16;
+package pkg7_17;
 
 public class GradeBook {
 
@@ -135,7 +135,7 @@ public class GradeBook {
         
         // create a column heading for each of the tests
         for (int test = 0; test < grades[0].length; test++)
-            System.out.printf("Test %d ", test + 1);
+            System.out.printf("Test %d  ", test + 1);
         
         System.out.println("Average"); // studnet average column heading
         
@@ -150,7 +150,9 @@ public class GradeBook {
             // call method getAverage to calculate student's average grade;
             // pass row of grades as the argument to getAverage
             double average = getAverage(grades[student]);
-            System.out.printf("59.2f%n", average);
+            System.out.printf("%9.2f%n", average);
         }
     } // end method outputGrades
 } // end class GradeBook
+
+
