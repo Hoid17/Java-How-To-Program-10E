@@ -1,6 +1,6 @@
-// Fig. 81: Time1.java
+// Fig. 8.1: Time1.java
 // Time1 class declaration maintains the time in 24-hour format.
-package pkg8_01;
+package pkg8_02;
 
 public class Time1 {
 
@@ -28,7 +28,7 @@ public class Time1 {
     // convert to String in universal-time format (HH:MM:SS)
     public String toUniversalString()
     {
-        return String.format("%02d:%02d", hour, minute, second);
+        return String.format("%02d:%02d:%02d", hour, minute, second);
     } // end method toUniversalString
     
     // convert to String in standard-time format (H:MM:SS AM or PM)
@@ -39,3 +39,4 @@ public class Time1 {
                 minute, second, (hour < 12 ? "AM" : "PM"));
     } // end method toString
 } // end class Time1
+
