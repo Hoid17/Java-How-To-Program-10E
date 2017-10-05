@@ -5,7 +5,7 @@ A guide that will eventually contain all examples and exercises from the 10th ed
 > - Chapter 1: Introduction to Computers, the Internet and Java
 > - Chapter 2: [Introduction to Java Applications; Input/Output and Operators](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter02)
 > - Chapter 3: [Control Statements: Part 1; Assignment, ++ and -- Operators](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter03)
-> - Chapter 4: [Control Statements: Part 2; Logical Operators]https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter04)
+> - Chapter 4: [Control Statements: Part 2; Logical Operators](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter04)
 > - Chapter 5: [Methods](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter05)
 > - Chapter 6: [Arrays and ArrayLists](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter06)
 > - Chapter 7: [Introduction to Classes and Objects](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter07)
