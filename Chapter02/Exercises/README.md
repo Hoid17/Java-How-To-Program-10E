@@ -5,4 +5,4 @@
 > - [2.16](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter02/Exercises/2.16) - Write an application that asks the user to enter two integers, obtains them from the user and displays the larger number followed by the words "is larger". If the numbers are equal, print the message "These numbers are equal".  Use the techniques shown in Fig 2.15
 > - [2.17](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter02/Exercises/2.17) - Write an application that inputs three integers from the user and displays the sum, average, product, smallest and largest of the numbers.  Use the techniques shown in Fig 2.15
 > - [2.18](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter02/Exercises/2.18) - Write an application that displays a box, an oval, an arrow and a diamond using asterisks(*)
-> - [2.19 - 2.23] - Copy the following code from the textbook and see results
+> - [2.19](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter02/Exercises/2.19) - [2.23](https://github.com/Hoid17/Java-How-To-Program-10E/tree/master/Chapter02/Exercises/2.23) - Copy the following code from the textbook and see results
